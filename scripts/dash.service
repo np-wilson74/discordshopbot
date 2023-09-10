@@ -1,0 +1,9 @@
+[Unit]
+Description=Discord Shop Bot
+After=multi-user.target
+[Service]
+Type=simple
+Restart=always
+ExecStart=su ec2-user -c '/usr/bin/python3 /home/ec2-user/main.py >> /home/ec2-user/logs/nohup.log'
+[Install]
+WantedBy=multi-user.target
