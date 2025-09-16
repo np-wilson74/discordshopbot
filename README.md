@@ -1,7 +1,7 @@
 # discordshopbot
 Source code for discordshopbot
 
-This code is not the most up-to-date code that the bot actually uses, but is for demonstration purposes.
+The code here isn't the final version, and I'm no longer running the bot.
 
 config.json file is left out that contains sensitive information.
 
